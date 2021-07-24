@@ -1,0 +1,116 @@
+/*Variáveis de cores*/
+
+:root {
+  --cor1: #262f7c;
+  --cor2: #379478;
+  --cor3: #f3efef;
+  --cor4: #2e6c6e;
+  --cor5: #2f3999;
+}
+
+/*Zerando configuração da página e deixando ela como uma box*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cuprum", sans-serif;
+}
+.clear {
+  clear: both;
+}
+.left {
+  float: left;
+}
+.center {
+  float: center;
+}
+.right {
+  float: right;
+}
+/****************************************************************************/
+/*HEADER*/
+header {
+  background-color: var(--cor1);
+  height: 110px;
+  width: 100%;
+}
+img {
+  float: none !important;
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+}
+.imgLogo {
+  height: 64px;
+  width: 64px;
+  /*CIMA, DIREITA, BAIXO, ESQUERDA*/
+  margin: 22px 0px 22px 10px;
+}
+ul {
+  margin: 22px 21px 22px 0px;
+}
+li {
+  top: 5px;
+  font-size: 20px;
+  padding: 25px 5px;
+  display: inline-block;
+}
+.mobile {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: var(--cor3);
+  font-weight: 700;
+}
+a:hover {
+  text-decoration: none;
+  color: var(--cor2);
+}
+
+/*BODY*/
+.body {
+  background: var(--cor2);
+}
+.servicos {
+  /*Seção dos seviços*/
+  width: 80%;
+  max-width: 700px;
+  margin: 20px auto;
+}
+.CampoServico {
+  /*Caixas de cada serviço*/
+  background-color: var(--cor2);
+  margin: 10px;
+  padding: 22px;
+}
+.product {
+  /*Imagens dos seviços*/
+  width: 100%;
+  height: relative;
+  max-width: 300px;
+}
+
+h2 {
+  font-weight: 700;
+  margin: 10px 0px;
+  text-align: left;
+}
+h3 {
+  font-weight: 500;
+  text-align: justify;
+  margin: 10px 0px;
+}
+.botao {
+  font-size: 24px;
+  height: 50px;
+  width: 50%;
+  background-color: var(--cor4);
+  border-radius: 20px;
+}
+.botao:hover {
+  font-size: 24px;
+  height: 50px;
+  width: 50%;
+  background-color: var(--cor5);
+}
